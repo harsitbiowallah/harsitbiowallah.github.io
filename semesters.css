@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+   }
+
+.navbar{
+   
+    background-color: black;
+    
+}
+
+
+
+.navbar a{
+    background-color: #eaee86;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.navbar .a:hover{
+    background-color: #7e9e33;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+/* this is all above is the navbar setting */
+
+h1{
+    background-color: orange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust values as needed  */
+    
+    
+}
+
+h3{
+    text-align: center;
+    background-color: #eaee86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* all the settings of heading are done above the */
+
+.semesters{ 
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+
+a{
+   
+    
+    text-decoration: none;
+    color: black;
+    border: 5px solid black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eaee86;
+    
+
+}
+
+
+.syl{
+    background-color: rgb(239, 166, 70);
+}
+
+p{
+    font-size: 25px;
+   
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: #e9f3d2;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    
+
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .semesters {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (portrait tablets and large phones, 600px to 900px) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .semesters {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (landscape tablets and desktops, 900px and up) */
+@media only screen and (min-width: 900px) {
+    .semesters {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .semesters {
+        font-size: 18px;
+    }
+}
+
