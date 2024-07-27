@@ -39,6 +39,34 @@ nav{
     text-decoration: none;
     }
 
+
+    /* Default font size for all devices */
+.navbar a {
+    font-size: 14px;
+  }
+  
+  /* For tablets in portrait mode (width between 600px and 800px) */
+  @media (min-width: 600px) and (max-width: 800px) {
+    .navbar a {
+      font-size: 16px;
+    }
+  }
+  
+  /* For tablets in landscape mode and small laptops (width between 801px and 1200px) */
+  @media (min-width: 801px) and (max-width: 1200px) {
+    .navbar a {
+      font-size: 18px;
+    }
+  }
+  
+  /* For larger screens (width greater than 1200px) */
+  @media (min-width: 1201px) {
+    .navbar a {
+      font-size: 20px;
+    }
+  }
+  
+
 .navbar .a:hover{
     background-color: #7e9e33;
     transform: scale(1.05);
@@ -70,19 +98,21 @@ h3{
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    
+    
    
  
 }
 
 .semesters a{
    
-    width: 500px;
+    
     text-decoration: none;
     color: black;
     border: 5px solid black;
     border-radius: 12px;
-    text-align: center;
+    
     margin: 10px;
     padding: 10px;
     background-color: #eaee86;
@@ -91,9 +121,25 @@ h3{
 }
 
 
-.syl{ 
-    
-    background-color: rgb(97, 234, 236);
+.syllab{
+  
+  text-align: center;
+  padding: 20px;
+  
+
+}
+
+.syllab a{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aqua;
+  
+  
+
 }
 
 p{  
@@ -101,10 +147,7 @@ p{
     text-align: center;
     font-size: 25px;
     
-   
-    
-  
-    background-color: #e9f3d2;
+    background-color: #a7d0f5;
     border: 5px solid black;
     border-radius: 10px;
     padding: 15px;
@@ -114,32 +157,4 @@ p{
 
 
 
-
-/* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .semesters {
-        font-size: 14px;
-    }
-}
-
-/* Medium devices (portrait tablets and large phones, 600px to 900px) */
-@media only screen and (min-width: 600px) and (max-width: 900px) {
-    .semesters {
-        font-size: 15px;
-    }
-}
-
-/* Large devices (landscape tablets and desktops, 900px and up) */
-@media only screen and (min-width: 900px) {
-    .semesters {
-        font-size: 16px;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .semesters {
-        font-size: 18px;
-    }
-}
 
