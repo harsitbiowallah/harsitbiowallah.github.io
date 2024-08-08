@@ -298,7 +298,7 @@ img{
 /* Large Devices */
 @media (min-width: 993px) and (max-width: 1200px) {
     img {
-        height: %;
+        height:60%;
        
     }
 }
@@ -306,7 +306,7 @@ img{
 /* Extra Large Devices */
 @media (min-width: 1201px) {
     img {
-        height: 70%;
+        height: 60%;
     }
 }
 
@@ -417,6 +417,24 @@ img{
     background-size: cover;
     cursor: pointer;
 }
+
+
+.countercore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px dashed lightblue;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
 
 
 
