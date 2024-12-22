@@ -290,7 +290,7 @@ img{
 /* Medium Devices */
 @media (min-width: 769px) and (max-width: 992px) {
     img {
-        height: 0%;
+        height:30%;
         
     }
 }
@@ -298,13 +298,13 @@ img{
 /* Large Devices */
 @media (min-width: 993px) and (max-width: 1200px) {
     img {
-        height:60%;
+        height:30%;
        
     }
 }
 
 /* Extra Large Devices */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
     img {
         height: 60%;
     }
